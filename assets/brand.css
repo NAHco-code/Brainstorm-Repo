@@ -78,3 +78,111 @@ nav{
     width: 51px;
     padding: 1px 0 1px 0;
 }
+
+#header_txt_wrap{
+    width: 175px;
+    padding: 15px 0 5px 0;
+}
+
+#header_prefix{
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 25px;
+    right: 92px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--lightest-grey);
+    letter-spacing: -0.5px;
+    text-shadow: 0.5px 0.5px 0.1px #0706040e;
+}
+
+#header_txt{
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+}
+
+#about_sec{
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+}
+
+#about_content_wrapper{
+    display: flex;
+}
+
+#about_intro_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+#about_txt_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+}
+
+#brand_content_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#brand_sec{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#brand_column_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+#brand_intro_wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+#brand_note_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 60px;
+}
+
+@media only screen and (min-width: 425px) {
+    main{
+    position: relative;
+    top: 125px;
+    left: 80px;
+    }
+
+    #header_txt_wrap{
+        width: px;
+    }
+
+    #header_txt{
+    font-size: 20px;
+    }
+
+    /* #headshot_sec{
+    width: 150px;
+    height: 150px;
+    }
+
+    .card_img{
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    } */
+
+}
