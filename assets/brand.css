@@ -41,3 +41,40 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+
+.top_nav_links{
+    color: var(--dark-grey);
+    font-family: 'Roboto', sans-serif;
+    font-size: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    /* text-shadow: 2 2 0 black; */
+}
+
+.top_nav_links:visited {
+    color: var(--dark-grey);
+    text-decoration: none;
+}
+
+.top_nav_links:hover {
+    color: var(--lightest-grey);
+    text-decoration: none;
+}
+
+.top_nav_links:active {
+    color: var(--beige);
+    text-decoration: none;
+}
+
+#contact_link{
+    color: var(--lighter-grey);
+    font-size: 5px;
+}
+
+#about_link{
+    color: var(--lighter-grey);
+    font-size: 4.25px;
+    font-weight: 400;
+    width: 51px;
+    padding: 1px 0 1px 0;
+}
