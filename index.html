@@ -11,11 +11,12 @@
         rel="stylesheet">
     <!-- <link rel="stylesheet" href="./assets/reset.css"> -->
     <link rel="stylesheet" href="./assets/brand.css">
+    <link rel="stylesheet" href="./assets/cards.css">
     <title>Developer Portfolio: Kathryn Wilkinson</title>
 </head>
 
 <body>
-    <main class="home_card">
+    <main class="main_content_sec">
         <!-- HEADER -->
         <div id="header_wrapper">
             <header>
@@ -32,7 +33,12 @@
                 </nav>
                 <!-- Header Focus -->
                 <div id="header_txt_wrap">
-                    <h1 id="header_txt">New Arcadian Heights Company</h1>
+                    <h1 id="header_txt">Celebrate women
+                        <span id="header_span1">in </span>
+                        web development
+                        <span id="header_span2">& </span>
+                        design
+                    </h1>
                     <div id="header_prefix">NAH Co</div>
                 </div>
 
@@ -40,40 +46,48 @@
         </div>
 
         <!-- MAIN CONTENT -->
-        <div id="main_content_wrapper">
-            <div class="main_content" id="about_content_wrapper">
+        <div id="main_txt_wrapper">
+            <div class="main_txt_content" id="about_content_wrapper">
                 <section id="about_sec">
                     <div id="about_intro_wrapper">
-                        <div id="about_intro">Meet Kathryn Wilkinson</div>
-                        <div id="about_intro_tag">Get to Know the Developer</div>
+                        <div id="about_intro">Developer to know: K. Wilkinson</div>
+                        <div id="about_intro_tag">UX - UI - Full Stack</div>
                     </div>
                     <div id="about_txt_wrapper">
                         <!--- placeholder content -->
-                        <p id="about_txt">
+                        <p class="about_txt">
                             <a id="about_sec_link" href="#aboutlink" title="View about the developer">
                                 Kathryn Wilkinson
                             </a>
                             is a content strategist,
+                            is passionate about beep
+                            boop beep
                             design friend, conceptual
                             creative, brand magician,
                             & killer story teller.
+                        </p><br />
+                        <p class="about_txt">
+                            She is passionate about is a content strategist,
+                            design friend, conceptual
+                            creative.
                         </p>
                     </div>
                 </section>
             </div>
 
             <section class="main_content" id="headshot_sec">
-                <figure class="card_img" id="headshot_img"></figure>
+                <figure class="main_img" id="headshot_img"></figure>
             </section>
 
             <div class="main_content" id="brand_content_wrapper">
                 <section id="brand_sec">
-                    <div id="brand_column_wrapper">
-                        <div id="brand_intro_wrapper">
-                            <div id="brand_intro">INSPIRATION</div>
-                            <h2 id="brand_title_txt">Connection revival</h2>
-                        </div>
-                        <div class="brand_txt" id="brand_focus_wrapper">
+
+                    <div id="brand_intro_wrapper">
+                        <div id="brand_intro">INSPIRATION</div>
+                        <h2 id="brand_title_txt">Revive Connection</h2>
+                    </div>
+                    <div id="brand_txt_wrapper">
+                        <div id="brand_focus_wrapper">
                             <!--- placeholder content -->
                             <p id="brand_txt_focus">
                                 New Arcadian Heights is a personal
@@ -81,25 +95,78 @@
                                 about the environment and sustainability.
                             </p>
                         </div>
-                    </div>
-                    <div class="brand_txt" id="brand_note_wrapper">
-                        <!-- <p class="brand_txt_note">
-                        New Arcadian Heights Repellat optio, rerum
-                        iste ab voluptatum. Repellendus
-                        about the environment and sustainability.
-                        </p> -->
-                        <p class="brand_txt_note">
-                        New Arcadian Heights Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Impedit id, minima
-                        ratione accusantium labore facere modi veniam
+
+                        <div id="brand_note_wrapper">
+                            <p class="brand_txt_note">
+                            New Arcadian Heights Repellat optio, rerum
+                            iste ab voluptatum. Repellendus
+                            about the environment and sustainability.
+                            </p>
+                            <p class="brand_txt_note">
+                            New Arcadian Heights Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Impedit id, minima
+                            ratione accusantium labore facere modi veniam
                             sequi deserunt.
-                        </p>
+                            </p>
+                        </div>
                     </div>
+
                 </section>
             </div>
             <section id="brand_img_sec">
-                <figure class="card_img" id="brand_img"></figure>
+                <figure class="main_img" id="brand_img"></figure>
             </section>
         </div>
     </main>
+
+    <!-- start cards.css stylesheet -->
+
+    <div id="project_content_sec">
+        <div class="proj_cards" id="resume_card">
+            <section id="education_sec">
+                <h3 class="card_label_txt">Education</h3>
+                <div class="">
+                    <p id="university_txt">BS | Miami University</p>
+                    <p>Date (Aug 2008 - Aug 2013)</p>
+                    <p class="downarrow">&#8595;</p>
+                    <p class="" id="web_cert_txt">Full Stack
+                        <br />
+                        Web Development
+                        <br />
+                        Certificate | Ohio State University
+                    </p>
+                    <p>Date (Jan 2021 - July 2021)</p>
+                </div>
+            </section>
+            <section id="skills_sec">
+                <h4 class="card_label_txt whitetxt">Skills</h4>
+                <div id="skills_txt_wrapper">
+                    <p class="skills_txt">
+                        HTML </p><br />
+                    <p class="skills_txt">
+                        CSS </p><br />
+                    <p class="skills_txt">
+                        JavaScript </p><br />
+                    <p class="skills_txt">
+                        Creative Concept</p><br />
+                </div>
+            </section>
+        </div>
+        <div  class="proj_cards" id="contact_card">
+            <section id="contact_sec">
+                <h5 class="card_label_txt">Contact Kathryn Wilkinson</h5>
+                <div id="contact_txt_wrapper">
+                    <div>
+                        <p id="contact_txt">Collaboration</p>
+                    </div>
+                    <div>
+                        <p id="contact_txt"><a href="mailto: kathrynxwilk@gmail.com">kathrynxwilk@gmail.com</a></p>
+                        <br />
+                        <p id="contact_txt">614-477-2502</p>
+                        <br />
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
 </body>
