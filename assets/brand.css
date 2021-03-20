@@ -128,6 +128,32 @@ nav{
     width: 60px;
 }
 
+#about_intro{
+    font-family: 'Roboto', sans-serif;
+    font-size: 7.5px;
+    font-weight: 500;
+    color: var(--dark-grey);
+    padding: 0;
+}
+
+#about_intro_tag{
+    color: var(--lighter-grey);
+    font-size: 4.25px;
+    font-weight: 400;
+    padding-top: 1.5px;
+    padding-bottom: 17px;
+}
+
+#about_txt,
+#about_sec_link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5px;
+    font-weight: 500;
+    color: var(--dark-grey);
+    line-height: 5.5px;
+    text-decoration: none;
+}
+
 #brand_content_wrapper{
     display: flex;
     flex-direction: column;
@@ -150,11 +176,54 @@ nav{
     padding-bottom: 15px;
 }
 
+#brand_intro{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5px;
+    font-weight: 500;
+    color: var(--dark-grey);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#brand_title_txt{ /* ADD */
+    font-size: 14px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+
 #brand_note_wrapper{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     width: 60px;
+}
+
+#brand_txt_focus{
+    font-family: 'Roboto', sans-serif;
+    font-size: 7px;
+    font-weight: 400;
+    color: var(--dark-grey);
+    /* padding: 5px; */
+    width: 115px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.brand_txt_note{
+    color: var(--dark-grey);
+    font-family: 'Roboto', sans-serif;
+    font-size: 4px;
+    font-weight: 500;
+    line-height: 5.5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
 }
 
 @media only screen and (min-width: 425px) {
