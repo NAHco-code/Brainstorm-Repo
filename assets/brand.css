@@ -154,6 +154,29 @@ nav{
     text-decoration: none;
 }
 
+.card_img{
+    padding: 0;
+    margin-top: 10px;
+}
+
+#headshot_sec{
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#headshot_img{
+    background-image: url("images/brand-headshot.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: right 0% bottom 75%; */
+    z-index: 100;
+    border: 0.25px solid #07060415;
+    box-shadow: 0.5px 0.75px 1.5px #0706042a;
+    width: 163.2px;
+    height: 85.51px;
+}
+
 #brand_content_wrapper{
     display: flex;
     flex-direction: column;
@@ -224,6 +247,26 @@ nav{
     display: flex;
     justify-content: flex-end;
     padding-right: 5px;
+}
+
+#brand_img_sec{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#brand_img{
+    background-image: url("images/style.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 100;
+    border: 0.25px solid #07060415;
+    box-shadow: 0.5px 0.75px 1.5px #0706042a;
+    width: 163.2px;
+    height: 85.51px;
 }
 
 @media only screen and (min-width: 425px) {
