@@ -1,7 +1,7 @@
 :root{
     --white:  #FFFFFF;
     --off-white: #FDFDFD;
-    --lightest-grey: #ccc9c66c;
+    --grey-screen: #ccc9c66c;
     --lighter-grey: #CCC9C6;
     --light-grey: #C5BFBE;
     --taupe: #979D9C;
@@ -33,9 +33,9 @@ main{
     background: var(--off-white);
     width: 100%;
     height: 100%;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    padding: 20px 20px 5px 25px;
+    margin: 30px 0 5px 0;
+    padding: 15px 20px 0 25px;
+    border-bottom: 2px solid var(--lighter-grey);
 }
 
 nav{
@@ -58,7 +58,7 @@ nav{
 }
 
 .top_nav_links:hover {
-    color: var(--lightest-grey);
+    color: var(--grey-screen);
     text-decoration: none;
 }
 
@@ -76,14 +76,14 @@ nav{
     color: var(--lighter-grey);
     font-size: 4.25px;
     font-weight: 400;
-    width: 51px;
+    width: 50px;
     padding: 1px 0 1px 0;
 }
 
 #header_txt_wrap{
     height: fit-content;
     width: 175px;
-    padding: 25px 0 2px 0;
+    padding: 30px 0 5px 0;
 }
 
 #header_prefix{
@@ -133,7 +133,7 @@ nav{
 #about_sec{
     display: flex;
     justify-content: space-between;
-    width: 270px;
+    width: 100%;
 }
 
 #about_intro_wrapper{
@@ -161,23 +161,28 @@ nav{
 #about_txt_wrapper{
     display: flex;
     flex-direction: column;
-    width: 60px;
+    width: 65px;
+    padding-right: 3px;
 }
 
 .about_txt,
 #about_sec_link{
     font-family: 'Roboto', sans-serif;
-    font-size: 5px;
+    font-size: 4.9px;
     font-weight: 500;
     color: var(--dark-grey);
-    line-height: 5.75px;
+    line-height: 5.9px;
     text-decoration: none;
+}
+
+.about_txt{
+    width: 100%;
 }
 
 #headshot_sec{
     width: auto;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 /* global card class */
 /* .main_img{
@@ -197,7 +202,7 @@ nav{
     width: 163.2px;
     height: 85.51px;
     position: relative;
-    bottom: 15px;
+    bottom: 22px;
 }
 
 #brand_content_wrapper{
@@ -210,20 +215,22 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding-bottom: 5px;
-    padding-left: 95px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    width: 100%;
 }
 
 #brand_txt_wrapper{
     display: flex;
+    width: auto;
 }
 
 #brand_intro_wrapper{
     display: flex;
     flex-direction: column;
     padding-bottom: 15px;
-    padding-left: 45px;
-    width: max-content;
+    padding-left: 65px;
+    width: auto;
 }
 
 #brand_intro{
@@ -250,11 +257,11 @@ nav{
     font-weight: 400;
     color: var(--dark-grey);
     /* padding: 5px; */
-    width: 115px;
+    width: 165px;
     display: flex;
     justify-content: flex-end;
     padding-right: 12px;
-    padding-left: 5.5px;
+    padding-left: 55px;
     line-height: 8px;
 }
 
@@ -266,7 +273,6 @@ nav{
 
 }
 
-
 .brand_txt_note{
     color: var(--dark-grey);
     font-family: 'Roboto', sans-serif;
@@ -276,7 +282,7 @@ nav{
     text-decoration: none;
     display: flex;
     justify-content: flex-end;
-    padding-right: 5px;
+    padding-right: 6px;
     padding-bottom: 5px;
 }
 
@@ -296,58 +302,530 @@ nav{
     z-index: 100;
     border: 0.25px solid #07060415;
     box-shadow: 0.5px 0.75px 1.5px #0706042a;
-    width: 170px;
-    height: 150px;
+    width: 180px;
+    height: 110px;
     margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+@media only screen and (max-width: 280px) {
+    main{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #headshot_img{
+        width: 144px;
+        height: 75.45px;
+        position: relative;
+        bottom: 32px;
+    }
+
+    #brand_txt_focus{
+        padding-right: 10px;
+        padding-left: 15px;
+        width: 115px;
+    }
+
+    .brand_txt_note{
+        padding-left: 5px;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    main{
+        height: 100%;
+        margin: 45px 10px 25px 10px;
+        width: auto;
+    }
+
+    #about_txt_wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 70px;
+    }
+
+    #headshot_sec{
+        margin-bottom: 18px;
+    }
+
+    #headshot_img{
+        width: 172.8px;
+        height: 90.54px;
+    }
+
+    #brand_sec{
+        padding-left: 100px;
+    }
+
+    #brand_intro_wrapper{
+        padding-left: 23px;
+    }
+
+    #brand_txt_focus{
+        padding-right: 10px;
+        padding-left: 5px;
+        width: 115px;
+    }
+
+    #brand_note_wrapper{
+        width: 65px;
+    }
+
+    .brand_txt_note{
+        padding-left: 5px;
+        padding-right: 3px;
+    }
+
+    #brand_img{
+        width: 190px;
+        height: 130px;
+    }
 }
 
 @media only screen and (min-width: 375px) {
     main{
+        height: 100%;
+        margin: 45px 10px 25px 10px;
+        width: auto;
+    }
 
+    #about_txt_wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 70px;
+    }
+
+    #headshot_sec{
+        margin-bottom: 18px;
+    }
+
+    #headshot_img{
+        width: 172.8px;
+        height: 90.54px;
+    }
+
+    #brand_sec{
+        padding-left: 115px;
+    }
+
+    #brand_intro_wrapper{
+        padding-left: 23px;
+    }
+
+    #brand_txt_focus{
+        padding-right: 10px;
+        padding-left: 5px;
+        width: 115px;
+    }
+
+    #brand_note_wrapper{
+        width: 65px;
+    }
+
+    .brand_txt_note{
+        padding-left: 5px;
+        padding-right: 3px;
+    }
+
+    #brand_img{
+        width: 190px;
+        height: 130px;
+    }
+}
+
+@media only screen and (min-width: 411px) {
+    main{
+        margin: 50px 10px 40px 10px;
+    }
+
+    #headshot_img{
+        width: 192px;
+        height: 100.6px;
+    }
+
+    #about_txt_wrapper{
+        width: 77px;
+        padding-right: 5px;
+    }
+
+    #brand_sec{
+        padding-left: 130px;
+    }
+
+    #brand_intro_wrapper{
+        padding-left: 20px;
+    }
+
+    #brand_txt_focus{
+        padding-right: 15px;
+        padding-left: 0px;
+        width: 130px;
+    }
+
+    #brand_note_wrapper{
+        width: 67px;
+
+    }
+
+    #brand_img{
+        width: 220px;
+        height: 150px;
     }
 }
 
 @media only screen and (min-width: 425px) {
+    main{
+        margin: 20px 30px 5px 30px;
+    }
+
+    #headshot_img{
+        width: 172.8px;
+        height: 90.54px;
+    }
+
+    #about_txt_wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 70px;
+    }
+
+    #brand_sec{
+        padding-left: 125px;
+    }
+
+    #brand_intro_wrapper{
+        padding-left: 53px;
+    }
+
+    #brand_txt_focus{
+        padding-right: 15px;
+    }
+
+    #brand_note_wrapper{
+        width: 67px;
+
+    }
+
+    #brand_img{
+        width: 190.5px;
+        height: 125px;
+    }
+}
+
+@media only screen and (min-width: 540px) {
     body{
         display: flex;
         justify-content: space-between;
     }
 
     main{
+        height: 100%;
+        padding: 20px 27px 0 27px;
+        margin-top: 85px;
+        margin-left: 15px;
         width: 70%;
-        margin-left: 10px;
-        margin-top: 50px;
-        margin-bottom: 5px;
+    }
+
+    #headshot_sec{
+        margin-bottom: 25px;
     }
 
     #brand_sec{
-        padding-bottom: 15px;
-        padding-left: 75px;
+        padding-bottom: 10px;
+    }
+
+    #brand_intro_wrapper{
+        padding-bottom: 22px;
+        padding-left: 30px;
+    }
+
+    #brand_txt_focus{
+        width: 125px;
+    }
+
+    .brand_txt_note{
+        padding: 0px 10px 5px 0px;
+    }
+
+    #brand_img_sec{
+        margin-top: 5px;
+    }
+
+    #brand_img{
+        width: 195px;
+        height: 130px;
     }
 }
 
 @media only screen and (min-width: 768px) {
     body{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     main{
-        width: 45%;
-        /* position: relative;
-        top: px;
-        left: px; */
-        margin-top: 100px;
-        margin-left: 40px;
+        width: 65%;
+        height: 100%;
+        padding: 20px 27px 0 27px;
+        margin-top: 130px;
+        margin-left: 20px;
         margin-bottom: 5px;
+    }
+
+    .top_nav_links{
+    font-size: 6px;
+    }
+
+    #contact_link{
+    font-size: 6px;
+    }
+
+    #about_link{
+        font-size: 5.25px;
+        width: 62px;
+    }
+
+    #header_txt_wrap{
+        width: 205px;
+        padding-top: 33px;
+    }
+
+    #header_prefix{
+        position: relative;
+        bottom: 40.75px;
+        right: 111px;
+        font-size: 18.5px;
+    }
+
+    #header_txt{
+        font-size: 27px;
+        line-height: 22px;
+        letter-spacing: -0.5px;
+    }
+
+    #header_span1{
+        font-size: 23px;
+        line-height: 20px;
+    }
+
+    #header_span2{
+        font-size: 27px;
+        line-height: 20px;
+    }
+
+    #about_sec{
+        padding-top: 7px;
+    }
+
+    #about_intro{
+        font-size: 7px;
+    }
+
+    #about_intro_tag{
+        font-size: 5.25px;
+    }
+
+    #about_txt_wrapper{
+        width: 80px;
+        padding-top: 5px;
+    }
+
+    .about_txt,
+    #about_sec_link{
+        font-size: 6px;
+        line-height: 7.5px;
+    }
+
+    #headshot_sec{
+        margin-bottom: 0px;
+    }
+
+    #headshot_img{
+        width: 249.6px;
+        height: 130.78px;
+        position: relative;
+        bottom: 40px;
+    }
+
+    #brand_sec{
+        padding-left: 115px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+
+    #brand_intro_wrapper{
+        padding-left: 75px;
+        padding-bottom: 25px;
+    }
+
+    #brand_intro{
+        font-size: 5.5px;
+        padding-bottom: 8px;
+    }
+
+    #brand_title_txt{
+        font-size: 18px;
+    }
+
+    #brand_txt_focus{
+        font-size: 7.5px;
+        line-height: 10.5px;
+        padding-left: 37px;
+        padding-right: 8px;
+        width: 190px;
+    }
+
+    #brand_note_wrapper{
+        width: 100px;
+    }
+
+    .brand_txt_note{
+        font-size: 6px;
+        line-height: 7.5px;
+        padding-left: 13px;
+        padding-right: 5px;
+    }
+
+    #brand_img{
+        width: 260px;
+        height: 200px;
+        margin-top: 15px;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     main{
         position: relative;
-        top: 125px;
-        left: 80px;
+        top: 70px;
+        left: 25px;
+        padding: 25px 35px 0 35px;
+        width: 53%;
+    }
+
+    .top_nav_links{
+    font-size: 8px;
+    }
+
+    #contact_link{
+    font-size: 8px;
+    }
+
+    #about_link{
+        font-size: 7.25px;
+        width: 90px;
+    }
+
+    #header_txt_wrap{
+        width: 290px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    #header_prefix{
+        position: relative;
+        bottom: 61px;
+        right: 157px;
+        font-size: 26px;
+    }
+
+    #header_txt{
+        font-size: 32px;
+        line-height: 28px;
+        letter-spacing: -0.5px;
+    }
+
+    #header_span1{
+        font-size: 31px;
+        line-height: 26px;
+    }
+
+    #header_span2{
+        font-size: 34px;
+        line-height: 26px;
+    }
+
+    #about_sec{
+        padding-top: 5px;
+    }
+
+    #about_intro{
+        font-size: 8px;
+        padding-top: 5px;
+        width: 120px;
+    }
+
+    #about_intro_tag{
+        font-size: 7.5px;
+    }
+
+    #about_txt_wrapper{
+        padding-top: 5px;
+        width: 110px;
+    }
+
+    .about_txt,
+    #about_sec_link{
+        font-size: 6.6px;
+        line-height: 8.9px;
+    }
+
+    #headshot_sec{
+
+    }
+
+    #headshot_img{
+        width: 278.4px;
+        height: 145.87px;
+        position: relative;
+        bottom: 30px;
+    }
+
+    #brand_sec{
+        padding-left: 135px;
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+
+    #brand_intro_wrapper{
+        padding-left: 65px;
+        padding-bottom: 25px;
+    }
+
+    #brand_intro{
+        font-size: 6px;
+        padding-bottom: 8px;
+    }
+
+    #brand_title_txt{
+        font-size: 22px;
+    }
+
+    #brand_txt_focus{
+        font-size: 8.5px;
+        font-weight: 500;
+        line-height: 11.5px;
+        padding-left: 25px;
+        padding-right: 8px;
+        width: 210px;
+    }
+
+    #brand_note_wrapper{
+        width: 105px;
+    }
+
+    .brand_txt_note{
+        font-size: 6.5px;
+        line-height: 8.9px;
+        padding-left: 13px;
+        padding-right: 5px;
+    }
+
+    #brand_img{
+        width: 315px;
+        height: 240px;
+        margin-top: 15px;
     }
 }
 
