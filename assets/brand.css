@@ -32,7 +32,7 @@ body{
 main{
     background: var(--off-white);
     width: 100%;
-    height: 100%;
+    height: auto;
     margin: 30px 0 5px 0;
     padding: 15px 20px 0 25px;
     border-bottom: 2px solid var(--lighter-grey);
@@ -163,6 +163,7 @@ nav{
     flex-direction: column;
     width: 65px;
     padding-right: 3px;
+    padding-top: 10px;
 }
 
 .about_txt,
@@ -181,8 +182,8 @@ nav{
 
 #headshot_sec{
     width: auto;
-    height: auto;
-    margin-bottom: 12px;
+    height: 15px;
+    margin-bottom: 5px;
 }
 /* global card class */
 /* .main_img{
@@ -202,35 +203,42 @@ nav{
     width: 163.2px;
     height: 85.51px;
     position: relative;
-    bottom: 22px;
+    bottom: 92px;
 }
 
 #brand_content_wrapper{
     display: flex;
-    flex-direction: column;
     justify-content: flex-end;
 }
 
 #brand_sec{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     padding-bottom: 0px;
     padding-left: 40px;
     width: 100%;
 }
 
-#brand_txt_wrapper{
-    display: flex;
-    width: auto;
-}
-
 #brand_intro_wrapper{
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     padding-bottom: 15px;
     padding-left: 65px;
+    width: 100%;
+
+}
+#brand_txt_wrapper{
+    display: flex;
+    justify-content: flex-end;
     width: auto;
+    float: right;
+    clear: left;
+}
+
+#brand_note_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 60px;
 }
 
 #brand_intro{
@@ -257,21 +265,15 @@ nav{
     font-weight: 400;
     color: var(--dark-grey);
     /* padding: 5px; */
-    width: 165px;
+    width: 175px;
     display: flex;
     justify-content: flex-end;
-    padding-right: 12px;
+    padding-right: 15px;
     padding-left: 55px;
     line-height: 8px;
 }
 
-#brand_note_wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 60px;
 
-}
 
 .brand_txt_note{
     color: var(--dark-grey);
@@ -282,7 +284,7 @@ nav{
     text-decoration: none;
     display: flex;
     justify-content: flex-end;
-    padding-right: 6px;
+    padding-right: 8px;
     padding-bottom: 5px;
 }
 
@@ -314,11 +316,27 @@ nav{
         margin-bottom: 40px;
     }
 
+    #about_txt_wrapper{
+    width: 60px;
+    }
+
+    .about_txt,
+    #about_sec_link{
+        font-size: 4.5px;
+        font-weight: 400;
+        line-height: 5.75px;
+    }
+
     #headshot_img{
         width: 144px;
         height: 75.45px;
         position: relative;
-        bottom: 32px;
+        bottom: 90px;
+    }
+
+    #headshot_sec{
+        height: 30px;
+        margin-bottom: 0px;
     }
 
     #brand_txt_focus{
@@ -335,7 +353,7 @@ nav{
 
 @media only screen and (min-width: 360px) {
     main{
-        height: 100%;
+        height: auto;
         margin: 45px 10px 25px 10px;
         width: auto;
     }
@@ -344,6 +362,7 @@ nav{
         display: flex;
         flex-direction: column;
         width: 70px;
+        padding-right: 5px;
     }
 
     #headshot_sec{
@@ -357,6 +376,7 @@ nav{
 
     #brand_sec{
         padding-left: 100px;
+        padding-right: 10px;
     }
 
     #brand_intro_wrapper{
@@ -365,7 +385,7 @@ nav{
 
     #brand_txt_focus{
         padding-right: 10px;
-        padding-left: 5px;
+        padding-left: 0px;
         width: 115px;
     }
 
@@ -375,7 +395,7 @@ nav{
 
     .brand_txt_note{
         padding-left: 5px;
-        padding-right: 3px;
+        padding-right: 5px;
     }
 
     #brand_img{
@@ -386,7 +406,7 @@ nav{
 
 @media only screen and (min-width: 375px) {
     main{
-        height: 100%;
+        height: auto;
         margin: 45px 10px 25px 10px;
         width: auto;
     }
@@ -415,8 +435,8 @@ nav{
     }
 
     #brand_txt_focus{
-        padding-right: 10px;
-        padding-left: 5px;
+        padding-right: 5px;
+        padding-left: 0px;
         width: 115px;
     }
 
@@ -451,7 +471,7 @@ nav{
     }
 
     #brand_sec{
-        padding-left: 130px;
+        padding-left: 135px;
     }
 
     #brand_intro_wrapper{
@@ -459,14 +479,19 @@ nav{
     }
 
     #brand_txt_focus{
-        padding-right: 15px;
+        padding-right: 20px;
         padding-left: 0px;
-        width: 130px;
+        width: 140px;
     }
 
     #brand_note_wrapper{
         width: 67px;
 
+    }
+
+    .brand_txt_note{
+        padding-left: 0px;
+        padding-right: 5px;
     }
 
     #brand_img{
@@ -509,7 +534,7 @@ nav{
     }
 
     #brand_img{
-        width: 190.5px;
+        width: 210px;
         height: 125px;
     }
 }
@@ -521,7 +546,7 @@ nav{
     }
 
     main{
-        height: 100%;
+        height: auto;
         padding: 20px 27px 0 27px;
         margin-top: 85px;
         margin-left: 15px;
@@ -529,7 +554,7 @@ nav{
     }
 
     #headshot_sec{
-        margin-bottom: 25px;
+        height: 30px;
     }
 
     #brand_sec{
@@ -554,7 +579,7 @@ nav{
     }
 
     #brand_img{
-        width: 195px;
+        width: 205px;
         height: 130px;
     }
 }
@@ -566,12 +591,15 @@ nav{
     }
 
     main{
-        width: 65%;
-        height: 100%;
+        width: 460px;
+        height: auto;
         padding: 20px 27px 0 27px;
         margin-top: 130px;
         margin-left: 20px;
         margin-bottom: 5px;
+        position: absolute;
+        top: 75px;
+        left: 10px;
     }
 
     .top_nav_links{
@@ -628,8 +656,8 @@ nav{
     }
 
     #about_txt_wrapper{
-        width: 80px;
-        padding-top: 5px;
+        width: 85px;
+        padding-top: 10px;
     }
 
     .about_txt,
@@ -643,16 +671,17 @@ nav{
     }
 
     #headshot_img{
-        width: 249.6px;
-        height: 130.78px;
+        width: 288px;
+        height: 150.9px;
         position: relative;
-        bottom: 40px;
+        bottom: 145px;
     }
 
     #brand_sec{
         padding-left: 115px;
         padding-top: 25px;
         padding-bottom: 10px;
+        /* padding-right: 30px; */
     }
 
     #brand_intro_wrapper{
@@ -672,7 +701,7 @@ nav{
     #brand_txt_focus{
         font-size: 7.5px;
         line-height: 10.5px;
-        padding-left: 37px;
+        padding-left: 20px;
         padding-right: 8px;
         width: 190px;
     }
@@ -685,23 +714,25 @@ nav{
         font-size: 6px;
         line-height: 7.5px;
         padding-left: 13px;
-        padding-right: 5px;
+        padding-right: 7px;
     }
 
     #brand_img{
-        width: 260px;
-        height: 200px;
-        margin-top: 15px;
+        width: 280px;
+        height: 190px;
+        margin-top: 5px;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     main{
-        position: relative;
-        top: 70px;
-        left: 25px;
+        width: 550px;
+        height: auto;
         padding: 25px 35px 0 35px;
-        width: 53%;
+        margin-bottom: 5px;
+        position: absolute;
+        top: 75px;
+        left: 25px;
     }
 
     .top_nav_links{
@@ -771,15 +802,15 @@ nav{
         line-height: 8.9px;
     }
 
-    #headshot_sec{
-
-    }
-
     #headshot_img{
         width: 278.4px;
         height: 145.87px;
         position: relative;
-        bottom: 30px;
+        bottom: 120px;
+    }
+
+    #headshot_sec{
+        height: 40px;
     }
 
     #brand_sec{
@@ -796,6 +827,7 @@ nav{
     #brand_intro{
         font-size: 6px;
         padding-bottom: 8px;
+        padding-top: 20px;
     }
 
     #brand_title_txt{
@@ -829,7 +861,118 @@ nav{
     }
 }
 
+@media only screen and (min-width: 1280px) {
+    main{
+        width: 500px;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        left: 90px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #header_txt_wrap{
+        padding-top: 30px;
+    }
+
+    #header_txt{
+        font-size: 30px;
+    }
+
+    #header_span1{
+        font-size: 29px;
+    }
+
+    #header_span2{
+        font-size: 32px;
+    }
+
+    #about_intro{
+        padding-top: 0px;
+    }
+
+    #about_txt_wrapper{
+        padding-top: 5px;
+    }
+
+    .about_txt{
+        font-size: 6px;
+    }
+
+    #headshot_img{
+        position: relative;
+        bottom: 125px;
+        width: 249.6px;
+        height: 130.78px;
+    }
+
+    #brand_sec{
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    #brand_txt_focus{
+        padding-left: 10px;
+        padding-right: 5px;
+        font-size: 7.5px;
+        width: 180px;
+    }
+
+    #brand_note_wrapper{
+        width: 115px;
+    }
+
+    .brand_txt_note{
+        font-size: 5.5px;
+    }
+
+    #brand_img{
+        width: 300px;
+        height: 175px;
+        margin-top: 15px;
+    }
+}
+
 @media only screen and (min-width: 1440px) {
+    main{
+        width: 550px;
+        height: auto;
+        position: absolute;
+        bottom: 0px;
+        left: 100px;
+        margin-top: 60px;
+        padding: 25px 38px 0 38px;
+    }
+
+    #about_txt_wrapper{
+        width: 105px;
+    }
+
+    #headshot_sec{
+        height: 50px;
+    }
+
+    #brand_txt_focus{
+        padding-left: 0px;
+        padding-right: 10px;
+        font-size: 7.5px;
+        width: 195px;
+    }
+
+    #brand_note_wrapper{
+        width: 110px;
+    }
+
+    .brand_txt_note{
+        font-size: 5.5px;
+    }
+
+    #brand_img{
+        width: 320px;
+        height: 195px;
+        margin-top: 15px;
+    }
 
 }
 

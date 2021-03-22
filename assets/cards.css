@@ -86,7 +86,7 @@
     width: 99%;
     height: 200px;
     padding: 20px;
-    margin: 2px;
+    margin: 10px 0 5px 0;
 }
 
 /* nav{
@@ -159,45 +159,103 @@
 }
 
 @media only screen and (min-width: 375px) {
+    #project-info_sec{
+        display: flex;
+        justify-content: center;
+        margin: 0 10px 0 10px;
+    }
 
+    .proj-info_cards{
+        height: 100px;
+        margin: 10px 0 5px 0;
+    }
 }
 
 @media only screen and (min-width: 425px) {
     #project-info_sec{
-        width: 25%;
 
+    }
+
+    .proj-info_cards{
+
+    }
+
+}
+
+@media only screen and (min-width: 540px) {
+    #project-info_sec{
+        display: flex;
+        justify-content: center;
+    }
+
+    .proj-info_cards{
+
+        height: 100px;
+        padding: 20px;
+        margin: 12px 0 12px 0;
     }
 
 }
 
 @media only screen and (min-width: 768px) {
     #project-info_sec{
-        width: 35%;
-        position: relative;
-        top: px;
-        left: px;
+        position: absolute;
+        right: 10px;
+        top: 0;
     }
 
     .proj-info_cards{
-    /* background: var(--off-white); */
-    width: 99%;
-    height: 180px;
-    padding: 20px;
-    margin: 12px;
+        width: 250px;
+        height: 145px;
+    }
 }
+
+@media only screen and (min-width: 860px) {
+    .proj-info_cards{
+        width: 300px;
+        height: 145px;
+    }
+}
+
+@media only screen and (min-width: 920px) {
+    #project-info_sec{
+        position: absolute;
+        right: 10px;
+        top: 0;
+    }
+
+    .proj-info_cards{
+        width: 350px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
     #project-info_sec{
 
-        position: relative;
-        top: 125px;
-        left: 80px;
+    }
+
+    .proj-info_cards{
+
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    #project-info_sec{
+
+    }
+
+    .proj-info_cards{
+
     }
 }
 
 @media only screen and (min-width: 1440px) {
-
+    #project-info_sec{
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+    }
 }
 
 @media only screen and (min-width: 2560px) {
