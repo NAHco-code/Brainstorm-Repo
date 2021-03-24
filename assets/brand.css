@@ -27,13 +27,14 @@
 
 body{
     background: var(--black);
+
 }
 
 main{
     background: var(--off-white);
-    width: 100%;
+    width: auto;
     height: auto;
-    margin: 30px 0 5px 0;
+    margin: 7px 2px 25px 2px;
     padding: 15px 20px 0 25px;
     border-bottom: 2px solid var(--lighter-grey);
 }
@@ -82,8 +83,8 @@ nav{
 
 #header_txt_wrap{
     height: fit-content;
-    width: 175px;
-    padding: 30px 0 5px 0;
+    width: 150px;
+    padding: 20px 0 0 0;
 }
 
 #header_prefix{
@@ -93,9 +94,9 @@ nav{
     justify-content: center;
     position: relative;
     bottom: 35.5px;
-    right: 96.5px;
+    right: 82px;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     color: #fff4fa;
     letter-spacing: -0.5px;
@@ -103,7 +104,7 @@ nav{
 }
 
 #header_txt{
-    font-size: 23px;
+    font-size: 18px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 300;
     letter-spacing: -1px;
@@ -111,7 +112,7 @@ nav{
 }
 
 #header_span1{
-    font-size: 21px;
+    font-size: 17px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 300;
     letter-spacing: -1px;
@@ -119,7 +120,7 @@ nav{
 }
 
 #header_span2{
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 300;
     letter-spacing: -1px;
@@ -161,18 +162,18 @@ nav{
 #about_txt_wrapper{
     display: flex;
     flex-direction: column;
-    width: 65px;
+    width: 70px;
     padding-right: 3px;
-    padding-top: 10px;
+    padding-top: 3px;
 }
 
 .about_txt,
 #about_sec_link{
     font-family: 'Roboto', sans-serif;
-    font-size: 4.9px;
+    font-size: 4.5px;
     font-weight: 500;
     color: var(--dark-grey);
-    line-height: 5.9px;
+    line-height: 6px;
     text-decoration: none;
 }
 
@@ -180,9 +181,14 @@ nav{
     width: 100%;
 }
 
+#about_blockquote{
+    position: relative;
+    top: 5px;
+}
+
 #headshot_sec{
     width: auto;
-    height: 15px;
+    height: 35px;
     margin-bottom: 5px;
 }
 /* global card class */
@@ -200,10 +206,10 @@ nav{
     z-index: 100;
     border: 0.25px solid #07060415;
     box-shadow: 0.5px 0.75px 1.5px #0706042a;
-    width: 163.2px;
-    height: 85.51px;
+    width: 144px;
+    height: 75.45px;
     position: relative;
-    bottom: 92px;
+    bottom: 55px;
 }
 
 #brand_content_wrapper{
@@ -221,10 +227,20 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     padding-left: 65px;
     width: 100%;
 
+}
+
+#brand_intro{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4px;
+    font-weight: 500;
+    color: var(--dark-grey);
+    padding: 2px;
+    display: flex;
+    justify-content: center;
 }
 #brand_txt_wrapper{
     display: flex;
@@ -238,18 +254,10 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 60px;
+    width: 75px;
 }
 
-#brand_intro{
-    font-family: 'Roboto', sans-serif;
-    font-size: 4px;
-    font-weight: 500;
-    color: var(--dark-grey);
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-}
+
 
 #brand_title_txt{
     font-size: 14px;
@@ -269,7 +277,7 @@ nav{
     display: flex;
     justify-content: flex-end;
     padding-right: 15px;
-    padding-left: 55px;
+    padding-left: 58px;
     line-height: 8px;
 }
 
@@ -297,16 +305,16 @@ nav{
 }
 
 #brand_img{
-    background-image: url("images/style.jpg");
+    background-image: url("images/style3.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     z-index: 100;
     border: 0.25px solid #07060415;
     box-shadow: 0.5px 0.75px 1.5px #0706042a;
-    width: 180px;
-    height: 110px;
-    margin-top: 10px;
+    width: 193px;
+    height: 90px;
+    margin-top: 5px;
     margin-bottom: 1px;
 }
 

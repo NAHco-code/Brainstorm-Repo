@@ -19,10 +19,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-    font-size: 10px;
-    line-height: 1.0;
+    font-family: sans-serif;
+    color: var(--dark-grey);
 }
 
 #project-info_sec{
@@ -82,11 +80,10 @@
 }
 
 .proj-info_cards{
-    /* background: var(--off-white); */
-    width: 99%;
-    height: 200px;
-    padding: 20px;
-    margin: 10px 0 5px 0;
+    width: auto;
+    height: auto;
+    margin: 10px 5px 5px 5px;
+    /* border-bottom: 2px var(--);*/
 }
 
 /* nav{
@@ -129,34 +126,249 @@
     width: 51px;
     padding: 1px 0 1px 0;
 } */
-#proj_card1{
-    background: var(--taupe);
+
+
+/* GLOBAL STYLES */
+.card_sec{
+    display: flex;
+    justify-content: space-between;
 }
 
-#proj_card2{
-    background: var(--lighter-grey);
-}
-
-#proj_card3{
-    background: var(--light-grey);
-}
-
-#resume_card{
-    background: var(--orange);
-}
-
-#contact_card{
-    background: var(--beige);
-}
-
-#home_card{
-    background: var(--kahki-green);
+.card_header_wrapper{
+    position: relative;
+    width: fit-content;
+    height:fit-content;
+    padding: 5px;
 }
 
 .card_label_txt{
-    /* width: 175px;
-    padding: 15px 0 5px 0; */
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    letter-spacing: -1px;
+    padding: 0px;
+    /* line-height: 19.5px; */
 }
+
+.card_label_tag{
+    font-size: 10px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    padding: 0px;
+}
+
+.card_content_txt{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.25px;
+    font-weight: 400;
+    /* padding: 5px; */
+    min-width: 40px;
+    max-width: 100px;
+    line-height: 5.5px;
+}
+
+.card_img{
+    height: auto;
+    width: auto;
+}
+
+.column_wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* HOME CARD */
+#home_card{
+    background: var(--light-grey);
+    width: fit-content;
+}
+
+#home_header_txt{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+#home_txt{
+
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 85px;
+}
+
+#home_img{
+    background-image: url("images/portfolio2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 142px;
+
+}
+
+#home_img2{
+    background-image: url("images/wedding4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 55px;
+    height: 72px;
+
+}
+
+/* CONTACT CARD */
+#contact_card{
+    background: var(--lighter-grey);
+    width: fit-content;
+}
+
+#card_sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#contact_txt_wrapper1{
+    padding: 0 0 20px 30px;
+    width: 125px;
+}
+
+#contact_txt_wrapper2{
+    padding: 0 0 20px 0;
+    height: 75px;
+    width: 140px;
+}
+
+#contact_header_txt{
+    padding: 5px 2px 2px 10px;
+    /* position: relative;
+    left: 153px; */
+}
+
+#contact_header_tag{
+    font-size: 13px;
+    width: 100%;
+    padding-left: 16px;
+}
+
+.contact_txt{
+    text-decoration: none;
+}
+
+#contact_txt1{
+    padding-top: 5px;
+    /* padding-bottom: 5px; */
+    font-size: 5px;
+    width: 80px;
+    line-height: 6px;
+}
+
+#contact_txt2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 5px;
+    width: 80px;
+    line-height: 6px;
+}
+
+#contact_txt3{
+    padding-top: 25px;
+    line-height: 6px;
+    padding-right: 7px;
+}
+
+#contact_txt4{
+    padding-top: 25px;
+    line-height: 6px;
+    padding-left: 10px;
+}
+
+#contact_options{
+
+    width: 125px;
+    display: flex;
+}
+
+/* RESUME CARD */
+#resume_card{
+    background: var(--taupe);
+    display: flex;
+}
+
+#education_sec{
+    display: flex;
+    width: 140px;
+}
+
+#university_txt{
+    max-width: 50px;
+    font-size: 4.5px;
+    line-height: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#skills_sec{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* COVIDwoke CARD */
+#proj_card1{
+    background: var(--kahki-green);
+}
+
+#proj1_img{
+    background-image: url("images/covid-woke-landing.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 180px;
+    height: 110px;
+}
+
+#proj1_img2{
+    background-image: url("images/covid-woke-results.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 180px;
+    height: 110px;
+}
+
+
+/* WEATHER DASH CARD */
+#proj_card2{
+    background: var(--wine);
+}
+
+#proj2_img{
+    background-image: url("images/weatherDash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 180px;
+    height: 110px;
+}
+
+
+/* CODE QUIZ CARD */
+#proj_card3{
+    background: var(--beige);
+}
+
+#proj3_img{
+    background-image: url("images/quiz_interface.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 180px;
+    height: 110px;
+}
+
 
 @media only screen and (min-width: 375px) {
     #project-info_sec{
@@ -166,7 +378,7 @@
     }
 
     .proj-info_cards{
-        height: 100px;
+
         margin: 10px 0 5px 0;
     }
 }
@@ -189,8 +401,6 @@
     }
 
     .proj-info_cards{
-
-        height: 100px;
         padding: 20px;
         margin: 12px 0 12px 0;
     }
@@ -206,14 +416,12 @@
 
     .proj-info_cards{
         width: 250px;
-        height: 145px;
     }
 }
 
 @media only screen and (min-width: 860px) {
     .proj-info_cards{
         width: 300px;
-        height: 145px;
     }
 }
 

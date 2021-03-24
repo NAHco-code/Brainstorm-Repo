@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Nunito+Sans:wght@200&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,400&display=swap"
         rel="stylesheet">
     <!-- <link rel="stylesheet" href="./assets/reset.css"> -->
     <link rel="stylesheet" href="./assets/brand.css">
@@ -62,8 +62,7 @@
                             of fields, as well as an established
                             background in the arts.
                         </p>
-                        <br />
-                        <blockquote class="about_txt">
+                        <blockquote class="about_txt" id="about_blockquote">
                             "My background in the service industry
                             and as a social worker has taught me
                             how to effectively work with people
@@ -72,16 +71,6 @@
                             and education, creative problem solving,
                             marketing, sales, or working with a team."
                         </blockquote>
-                        <br />
-                        <p class="about_txt">
-                            She grew up in Columbus, Ohio
-                            with three brothers and their parents, who
-                            continue to teach math & music in the
-                            Hilliard City School District.
-                            She now lives with her partner and
-                            their black lab, Stark.
-                        </p>
-
                     </div>
                 </section>
             </div>
@@ -143,59 +132,149 @@
             <div class="proj-info_links" id="link_home">6</div>
         </div> -->
         <div id="cards_wrapper">
-            <div class="proj-info_cards" id=proj_card1></div>
-            <div class="proj-info_cards" id=proj_card2></div>
-            <div class="proj-info_cards" id=proj_card3></div>
+            <div class="proj-info_cards" id="home_card">
+                <section class="card_sec" id="home_sec">
+                    <div class="card_img" id="home_img"></div>
+                    <h3 class="card_label_txt" id="home_header_txt">Home</h3>
+                    <div class="column_wrap">
+                        <p class="card_content_txt" id="home_txt">
+                            K. Wilkinson grew up in Columbus, Ohio
+                            with three brothers and their parents, who
+                            continue to teach math & music in the
+                            Hilliard City School District.
+                            <br/><br />
+                            She now lives with her partner and
+                            their black lab, Stark.
+                        </p>
+                        <div class="card_img" id="home_img2"></div>
+                    </div>
+
+                </section>
+            </div>
+            <div class="proj-info_cards" id="contact_card">
+                <section class="card_sec" id="contact_sec">
+
+                    <div class="column_wrap" id="contact_txt_wrapper1">
+                        <p class="card_content_txt contact_txt" id="contact_txt1">If you'd like to create <br/>or collaborate with <br/>the developer</p>
+                        <p class="card_content_txt contact_txt" id="contact_txt2">If you're interested <br/>in hiring the <br />developer</p>
+                    </div>
+
+                    <div class="column_wrap" id="contact_txt_wrapper2">
+                        <h4 class="card_label_txt" id="contact_header_txt">Contact</h4>
+                        <div class="card_label_tag" id="contact_header_tag">
+                            K. Wilkinson
+                        </div>
+                        <div id="contact_options">
+                            <a class="card_content_txt contact_txt" id="contact_txt3" href="mailto: kathrynxwilk@gmail.com">kathrynxwilk@gmail.com</a>
+                            <br />
+                            <p class="card_content_txt contact_txt" id="contact_txt4">614-477-2502</p>
+                            <br />
+                        </div>
+
+                    <div class="card_img" id="contact_img"></div>
+                </section>
+            </div>
             <div class="proj-info_cards" id="resume_card">
-                <section id="education_sec">
-                    <h3 class="card_label_txt">Education</h3>
+                <section class="card_sec" id="education_sec">
+                    <div class="column_wrap">
+                        <h5 class="card_label_txt">Education</h5>
+
+                        <section class="card_sub_sec" id="skills_sub_sec">
+                            <h6 class="card_label_tag">Skills</h6>
+                            <div id="skills_txt_wrapper">
+                                <p class="card_content_txt skills_txt">
+                                    HTML </p>
+                                <p class="card_content_txt skills_txt">
+                                    CSS </p>
+                                <p class="card_content_txt skills_txt">
+                                    UX - UI Design </p>
+                                <p class="card_content_txt skills_txt">
+                                    JavaScript </p>
+                                <p class="card_content_txt skills_txt">
+                                    Leadership </p>
+                                <p class="card_content_txt skills_txt">
+                                    Communication </p>
+                                <p class="card_content_txt skills_txt">
+                                    Teamwork </p>
+                            </div>
+                        </section>
+                    </div>
+
                     <div id="edu_txt_wrapper">
-                        <p id="university_txt">K. Wilkinson has earned
+                        <p class="card_content_txt" id="university_txt">K. Wilkinson has earned
                         a Bachelor of Science from Miami Univeristy of Ohio,
                         and a Full-Stack Web Development Certificate in
                         JavaScript from Ohio State University through
                         Trilogy Education Services. </p>
                     </div>
+                    <div class="card_img" id="resume_img"></div>
                 </section>
-                <section id="skills_sec">
-                    <h4 class="card_label_txt whitetxt">Skills</h4>
-                    <div id="skills_txt_wrapper">
-                        <p class="skills_txt">
-                            HTML </p><br />
-                        <p class="skills_txt">
-                            CSS </p><br />
-                        <p class="skills_txt">
-                            UX - UI Design </p><br />
-                        <p class="skills_txt">
-                            JavaScript </p><br />
-                        <p class="skills_txt">
-                            Leadership </p><br />
-                        <p class="skills_txt">
-                            Communication </p><br />
-                        <p class="skills_txt">
-                            Teamwork </p><br />
+
+            </div>
+
+            <div class="proj-info_cards" id="proj_card1">
+                <section class="card_sec" id="proj_card1_sec">
+                    <div class="card_header_wrapper">
+                        <h7 class="card_label_txt">COVID woke</h7>
+
                     </div>
+
+                    <p class="card_content_txt">
+                        COVID Woke seeks to elevate the public information environment by presenting necessary information that is accessible
+                        and easy to understand. Third party API software technology methods allow the user to view
+                        detailed and complete statistics, and the current COVID climate between multiple regions.
+                        Our goal is to empower and inspire humans to live with elevated integrity, mindfulness, and respect.
+                    </p>
+                    <p class="card_content_txt">
+                        Users are able to search specific states and counties for in-depth information about the current situation of the global
+                        pandemic. Color coded graphs and charts make it easy to assess the current risk level of the region they search.
+                    </p>
+                    <div class="card_img" id="proj1_img"></div>
+                    <div class="card_img" id="proj1_img2"></div>
                 </section>
             </div>
-            <div class="proj-info_cards" id="contact_card">
-                <section id="contact_sec">
-                    <h5 class="card_label_txt">Contact</h5>
-                    <p id="card_label_tag">K. Wilkinson</p>
-                    <div id="contact_txt_wrapper">
-                        <div>
-                            <p id="contact_txt">If you'd like to create or collaborate with the developer</p>
-                            <p id="contact_txt">If you're interested in hring the developer</p>
-                        </div>
-                        <div>
-                            <p id="contact_txt"><a href="mailto: kathrynxwilk@gmail.com">kathrynxwilk@gmail.com</a></p>
-                            <br />
-                            <p id="contact_txt">614-477-2502</p>
-                            <br />
-                        </div>
+            <div class="proj-info_cards" id="proj_card2">
+                <section class="card_sec" id="proj_card2_sec">
+                    <div class="card_header_wrapper">
+                        <h8 class="card_label_txt">Weather Dashboard</h8>
+                        <p class="card_label_tag">Intuitive user experience
+                            <br/>Clean and polished user interface
+                        </p>
                     </div>
+
+                    <p class="card_content_txt">
+                        A weather application that allows a user to search the weather outlook for multiple cities. Allows the user to better
+                        plan for events and travel.
+                    </p>
+                    <p class="card_content_txt">
+                        User is presented with current and future conditions for the city searched, + each city searched is saved in
+                        search history. Current weather conditions reflect the temperature, humidity, wind speed, and the UV index.
+                        Future weather conditions present a 5-day forecast that displays the date, weather conditions, temperature,
+                        and humidity. Cities saved in search history render both current and future conditions when clicked.
+                    </p>
+                    <div class="card_img" id="proj2_img"></div>
                 </section>
             </div>
-            <div class="proj-info_cards" id="home_card"></div>
+
+            <div class="proj-info_cards" id="proj_card3">
+                <section class="card_sec" id="proj_card3_sec">
+                    <div class="card_header_wrapper">
+                        <h9 class="card_label_txt">Code Quiz</h9>
+                        <p class="card_label_tag">Responsive User Interface
+                        </p>
+                    </div>
+
+                    <p class="card_content_txt">
+                        Application quizzes the user on JavaScript code knowledge. This timed quiz gives 60 seconds to complete 5 questions
+                        about JavaScript code fundamentals. High scores can be entered to track user progress and compare to their peers.
+                    </p>
+                    <p class="card_content_txt">
+                        This app features dynamically updated HTML and CSS and is powered by JavaScript.
+                    </p>
+                    <div class="card_img" id="proj3_img"></div>
+                    <div class="card_img" id="proj3_img2"></div>
+                </section>
+            </div>
         </div>
     </div>
 </body>
