@@ -364,8 +364,7 @@
 }
 
 #covid_header_wrap{
-    padding-left: 10px;
-    padding-top: 0px;
+    padding: 10px 5px 10px 25px;
 }
 
 #covid_tag{
@@ -376,14 +375,14 @@
 }
 
 #covid_txt_wrap3{
-    width: 70px;
+    width: 65px;
     font-size: 4px;
-    padding-left: 10px;
-    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 
 #covid_txt_wrap4{
-    width: 70px;
+    width: 60px;
     font-size: 4px;
     padding-left: 10px;
 }
@@ -401,9 +400,9 @@
     background-image: url("images/covid-woke-results.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 130px;
-    height: 110px;
-    margin-left: 10px;
+    width: 115px;
+    height: 95px;
+    margin-left: 15px;
 }
 
 
@@ -412,13 +411,29 @@
     background: var(--wine);
 }
 
+#weather_tag_wrapper{
+    width: 90px;
+    padding: 30px 15px 30px 15px;
+}
+
+#weather_header{
+    padding-left: 16px;
+    padding-top: 10px;
+}
+
 #proj2_img{
     background-image: url("images/weatherDash.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    width: 180px;
-    height: 110px;
+    width: 160px;
+    height: 85px;
+    margin-top: 30px;
+}
+
+#weather_content_txt{
+    width: 70px;
+    padding: 58px 15px 25px 15px;
+    line-height: 6px;
 }
 
 
