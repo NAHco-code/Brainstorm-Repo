@@ -132,6 +132,7 @@
 .card_sec{
     display: flex;
     justify-content: space-between;
+
 }
 
 .card_header_wrapper{
@@ -295,6 +296,7 @@
 #resume_card{
     background: var(--taupe);
     display: flex;
+    width: 220px;
 }
 
 #education_sec{
@@ -302,41 +304,106 @@
     width: 140px;
 }
 
+#edu_header_txt{
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+
+#skills_sub_sec{
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    padding-top: 25px;
+}
+
+#skills_txt_wrapper{
+    padding-top: 5px;
+    width: 110px;
+    height: 40px;
+    display: flex;
+}
+
+#skills_header{
+    padding-left: 20px;
+}
+
+.skills_txt{
+    padding-bottom: 2px;
+}
+
 #university_txt{
     max-width: 50px;
     font-size: 4.5px;
     line-height: 6px;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 5px;
 }
-
-#skills_sec{
-    display: flex;
-    flex-direction: column;
-}
-
 
 /* COVIDwoke CARD */
 #proj_card1{
     background: var(--kahki-green);
 }
 
+.row{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#covid_txt_wrap1{
+    width: 50px;
+    font-size: 4px;
+    padding-left: 10px;
+}
+
+#covid_txt_wrap2{
+    width: 50px;
+    font-size: 4px;
+    padding-left: 10px;
+}
+
+#covid_header_wrap{
+    padding-left: 10px;
+    padding-top: 0px;
+}
+
+#covid_tag{
+    font-size: 7px;
+    padding-top: 10px;
+    width: 46px;
+    padding-left: 5px;
+}
+
+#covid_txt_wrap3{
+    width: 70px;
+    font-size: 4px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+#covid_txt_wrap4{
+    width: 70px;
+    font-size: 4px;
+    padding-left: 10px;
+}
+
 #proj1_img{
     background-image: url("images/covid-woke-landing.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    width: 180px;
-    height: 110px;
+    /* background-position: center; */
+    max-width: 100px;
+    min-height: 90px;
 }
 
 #proj1_img2{
     background-image: url("images/covid-woke-results.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    width: 180px;
+    width: 130px;
     height: 110px;
+    margin-left: 10px;
 }
 
 
@@ -401,8 +468,7 @@
     }
 
     .proj-info_cards{
-        padding: 20px;
-        margin: 12px 0 12px 0;
+
     }
 
 }
@@ -415,13 +481,13 @@
     }
 
     .proj-info_cards{
-        width: 250px;
+
     }
 }
 
 @media only screen and (min-width: 860px) {
     .proj-info_cards{
-        width: 300px;
+
     }
 }
 
@@ -433,7 +499,7 @@
     }
 
     .proj-info_cards{
-        width: 350px;
+
     }
 }
 
