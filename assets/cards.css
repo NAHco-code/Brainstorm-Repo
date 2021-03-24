@@ -440,15 +440,44 @@
 /* CODE QUIZ CARD */
 #proj_card3{
     background: var(--beige);
+    width: fit-content;
+}
+
+#quiz_header_wrap{
+    width: 70px;
+}
+
+#quiz_tag{
+    padding-bottom: 15px;
+}
+
+#quiz_content1{
+    width: 50px;
+    padding-top: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 6px;
+}
+
+#quiz_content2{
+    width: 40px;
+    line-height: 6px;
+}
+
+#quiz_label{
+    font-size: 16px;
+    padding-left: 19px;
+    padding-top: 7px;
+    padding-bottom: 10px;
 }
 
 #proj3_img{
-    background-image: url("images/quiz_interface.png");
+    background-image: url("images/quiz_load.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 180px;
-    height: 110px;
+    width: 100px;
+    height: 116px;
 }
 
 
