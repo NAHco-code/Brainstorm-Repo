@@ -480,6 +480,73 @@
     height: 116px;
 }
 
+@media only screen and (max-width: 280px) {
+    #project-info_sec{
+        width: 100%;
+    }
+
+    #covid_header_wrap{
+    padding: 10px 0px 10px 10px;
+    }
+
+    #covid_txt_wrap3{
+        padding-left: 7px;
+        font-size: 4px;
+        width: 55px;
+    }
+
+    #covid_txt_wrap4{
+        padding-left: 5px;
+        font-size: 4px;
+        width: 55px;
+    }
+
+    #covid_header{
+        font-size: 15px;
+    }
+
+    #proj1_img2{
+    margin-left: 5px;
+    }
+
+    #proj1_img{
+        max-width: 100px;
+        min-height: 90px;
+    }
+
+    #proj1_img2{
+
+        width: 105px;
+        height: 95px;
+        margin-left: 5px;
+    }
+
+    #weather_tag_wrapper{
+        width: 90px;
+        padding: 30px 15px 30px 15px;
+    }
+
+    #weather_header{
+        padding-left: 8px;
+        padding-top: 28px;
+    }
+
+    #proj2_img{
+        background-image: url("images/weatherDash.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 140px;
+        height: 75px;
+        margin-top: 30px;
+    }
+
+    #weather_content_txt{
+        width: 70px;
+        padding: 50px 15px 25px 15px;
+        line-height: 6px;
+    }
+
+}
 
 @media only screen and (min-width: 375px) {
     #project-info_sec{
