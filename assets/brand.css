@@ -320,8 +320,10 @@ nav{
 
 @media only screen and (max-width: 280px) {
     main{
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        width: 100%;
+
     }
 
     #about_txt_wrapper{
@@ -595,19 +597,17 @@ nav{
 @media only screen and (min-width: 768px) {
     body{
         display: flex;
-        justify-content: space-evenly;
+
     }
 
     main{
-        width: 460px;
+        width: auto;
         height: auto;
         padding: 20px 27px 0 27px;
         margin-top: 130px;
         margin-left: 20px;
         margin-bottom: 5px;
-        position: absolute;
-        top: 75px;
-        left: 10px;
+
     }
 
     .top_nav_links{
@@ -679,10 +679,10 @@ nav{
     }
 
     #headshot_img{
-        width: 288px;
-        height: 150.9px;
+        width: 249.6px;
+        height: 130.78px;
         position: relative;
-        bottom: 145px;
+        bottom: 110px;
     }
 
     #brand_sec{
@@ -733,14 +733,14 @@ nav{
 }
 
 @media only screen and (min-width: 1024px) {
+    body{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     main{
-        width: 550px;
-        height: auto;
-        padding: 25px 35px 0 35px;
-        margin-bottom: 5px;
-        position: absolute;
-        top: 75px;
-        left: 25px;
+
+
     }
 
     .top_nav_links{
@@ -871,13 +871,7 @@ nav{
 
 @media only screen and (min-width: 1280px) {
     main{
-        width: 500px;
-        height: auto;
-        position: absolute;
-        bottom: 0;
-        left: 90px;
-        margin-top: 0px;
-        margin-bottom: 0px;
+
     }
 
     #header_txt_wrap{
@@ -944,13 +938,6 @@ nav{
 
 @media only screen and (min-width: 1440px) {
     main{
-        width: 550px;
-        height: auto;
-        position: absolute;
-        bottom: 0px;
-        left: 100px;
-        margin-top: 60px;
-        padding: 25px 38px 0 38px;
     }
 
     #about_txt_wrapper{

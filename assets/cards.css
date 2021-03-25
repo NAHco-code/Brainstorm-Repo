@@ -345,8 +345,9 @@
     background: var(--kahki-green);
 }
 
-.row{
+.row_wrap{
     display: flex;
+    max-width: fit-content;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -559,15 +560,54 @@
 
         margin: 10px 0 5px 0;
     }
+
+    /* COVIDwoke CARD */
+    #covid_tag{
+        width: 80px;
+        line-height: 8px;
+    }
+
+    #covid_txt_wrap3{
+        padding-left: 15px;
+        padding-bottom: 10px;
+        line-height: 5px;
+        font-size: 4.5px;
+    }
+
+    #covid_txt_wrap4{
+        line-height: 5px;
+        font-size: 4.5px;
+    }
+
+    #weather_tag{
+        font-size: 12px;
+    }
+
+    #weather_tag_wrapper{
+        padding-bottom: 25px;
+    }
+
+    #weather_content_txt{
+        font-size: 5px;
+        line-height: 7px;
+        width: 80px;
+    }
+
+    #proj2_img{
+        width: 175px;
+        height: 95px;
+        margin-top: 30px;
+    }
 }
 
 @media only screen and (min-width: 425px) {
     #project-info_sec{
-
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
     .proj-info_cards{
-
+        width: fit-content;
     }
 
 }
@@ -585,33 +625,16 @@
 }
 
 @media only screen and (min-width: 768px) {
-    #project-info_sec{
-        position: absolute;
-        right: 10px;
-        top: 0;
-    }
 
-    .proj-info_cards{
 
-    }
 }
 
 @media only screen and (min-width: 860px) {
-    .proj-info_cards{
 
-    }
 }
 
 @media only screen and (min-width: 920px) {
-    #project-info_sec{
-        position: absolute;
-        right: 10px;
-        top: 0;
-    }
 
-    .proj-info_cards{
-
-    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -637,9 +660,7 @@
 
 @media only screen and (min-width: 1440px) {
     #project-info_sec{
-        position: absolute;
-        bottom: 0;
-        right: 10px;
+
     }
 }
 
