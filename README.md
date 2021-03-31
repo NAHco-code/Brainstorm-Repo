@@ -16,6 +16,8 @@ Incomplete styling due to concept change. JavaScript will be applied to implemem
 ![screenshot revised-main](./assets/images/screenshot-revised-concept-home.PNG)
 ![screenshot revised-sections](./assets/images/screenshot-revised-concept-cards.PNG)
 
+![Resume](./assets/images/screenshot-resume-full.PNG)
+
 ### Links
 
 [DeployedApp(GitHubPages)](https://nahco-code.github.io/Portfolio-branded/)
