@@ -34,8 +34,8 @@ main{
     background: var(--off-white);
     width: auto;
     height: auto;
-    margin: 7px 2px 25px 2px;
-    padding: 15px 20px 0 25px;
+    margin: 40px 3px 40px 3px;
+    padding: 15px 20px 0 22px;
     border-bottom: 2px solid var(--lighter-grey);
 }
 
@@ -47,7 +47,7 @@ nav{
 .top_nav_links{
     color: var(--dark-grey);
     font-family: 'Roboto', sans-serif;
-    font-size: 5px;
+    font-size: 7px;
     font-weight: 500;
     text-decoration: none;
     /* text-shadow: 2 2 0 black; */
@@ -70,61 +70,36 @@ nav{
 
 #contact_link{
     color: var(--lighter-grey);
-    font-size: 5px;
 }
 
 #about_link{
     color: var(--lighter-grey);
-    font-size: 4.25px;
+    font-size: 6.25px;
     font-weight: 400;
-    width: 50px;
+    width: 40px;
     padding: 1px 0 1px 0;
 }
 
 #header_txt_wrap{
     height: fit-content;
-    width: 150px;
+    width: auto;
     padding: 20px 0 0 0;
 }
 
-#header_prefix{
-    transform: rotate(-90deg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    bottom: 35.5px;
-    right: 82px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    color: #fff4fa;
-    letter-spacing: -0.5px;
-    text-shadow: 0.5px 0.5px 0.1px #0706040e;
+#header_txt{
+    font-size: 22px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 20.5px;
 }
 
-#header_txt{
-    font-size: 18px;
+#header_span{
+    font-size: 25px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 300;
     letter-spacing: -1px;
     line-height: 19.5px;
-}
-
-#header_span1{
-    font-size: 17px;
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 300;
-    letter-spacing: -1px;
-    line-height: 17.5px;
-}
-
-#header_span2{
-    font-size: 20px;
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 300;
-    letter-spacing: -1px;
-    line-height: 17.5px;
 }
 
 #about_content_wrapper{
@@ -135,62 +110,50 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #about_intro_wrapper{
     display: flex;
     flex-direction: column;
-    width: 100px;
+    width: auto;
 }
 
 #about_intro{
     font-family: 'Roboto', sans-serif;
-    font-size: 6px;
+    font-size: 8px;
     font-weight: 500;
     color: var(--dark-grey);
-    padding: 0;
+    padding-top: 10px;
+    padding-top: 10px;
 }
 
 #about_intro_tag{
     color: var(--lighter-grey);
-    font-size: 4.25px;
+    font-size: 6.25px;
     font-weight: 400;
     padding-top: 1.5px;
-    padding-bottom: 20px;
-}
-
-#about_txt_wrapper{
-    display: flex;
-    flex-direction: column;
-    width: 70px;
-    padding-right: 3px;
-    padding-top: 3px;
-}
-
-.about_txt,
-#about_sec_link{
-    font-family: 'Roboto', sans-serif;
-    font-size: 4.5px;
-    font-weight: 500;
-    color: var(--dark-grey);
-    line-height: 6px;
-    text-decoration: none;
-}
-
-.about_txt{
-    width: 100%;
-}
-
-#about_blockquote{
-    position: relative;
-    top: 5px;
 }
 
 #headshot_sec{
+    display: flex;
+    justify-content: space-between;
     width: auto;
-    height: 35px;
-    margin-bottom: 5px;
+    height: auto;
+    margin-bottom: 45px;
 }
+.about_txt{
+    font-family: 'Roboto', sans-serif;
+    font-size: 6.5px;
+    font-weight: 500;
+    color: var(--dark-grey);
+    line-height: 8px;
+    text-decoration: none;
+    width: 31%;
+}
+
+
 /* global card class */
 /* .main_img{
     padding: 0;
@@ -202,40 +165,34 @@ nav{
     background-image: url("images/brand-headshot.JPG");
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: right 0% bottom 75%; */
     z-index: 100;
     border: 0.25px solid #07060415;
     box-shadow: 0.5px 0.75px 1.5px #0706042a;
-    width: 144px;
-    height: 75.45px;
-    position: relative;
-    bottom: 55px;
+    width: 153.6px;
+    height: 80.48px;
 }
 
 #brand_content_wrapper{
     display: flex;
-    justify-content: flex-end;
 }
 
 #brand_sec{
-    padding-bottom: 0px;
-    padding-left: 40px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 #brand_intro_wrapper{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    padding-bottom: 10px;
-    padding-left: 65px;
     width: 100%;
-
+    margin-bottom: 10px;
 }
 
 #brand_intro{
     font-family: 'Roboto', sans-serif;
-    font-size: 4px;
+    font-size: 6px;
     font-weight: 500;
     color: var(--dark-grey);
     padding: 2px;
@@ -244,147 +201,140 @@ nav{
 }
 #brand_txt_wrapper{
     display: flex;
-    justify-content: flex-end;
     width: auto;
-    float: right;
-    clear: left;
-}
-
-#brand_note_wrapper{
-    display: flex;
-    flex-direction: column;
     justify-content: flex-end;
-    width: 75px;
 }
-
-
 
 #brand_title_txt{
-    font-size: 14px;
+    font-size: 17px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 300;
     display: flex;
     justify-content: center;
 }
 
-#brand_txt_focus{
-    font-family: 'Roboto', sans-serif;
-    font-size: 6px;
-    font-weight: 400;
-    color: var(--dark-grey);
-    /* padding: 5px; */
-    width: 175px;
+#brand_note_wrapper{
     display: flex;
-    justify-content: flex-end;
-    padding-right: 15px;
-    padding-left: 58px;
-    line-height: 8px;
+    width: 75%;
 }
-
-
 
 .brand_txt_note{
     color: var(--dark-grey);
     font-family: 'Roboto', sans-serif;
-    font-size: 4px;
+    font-size: 5.5px;
     font-weight: 500;
-    line-height: 5px;
+    line-height: 7px;
     text-decoration: none;
     display: flex;
-    justify-content: flex-end;
-    padding-right: 8px;
+    padding-right: 3px;
+    padding-left: 2px;
     padding-bottom: 5px;
+    width: 50%;
 }
 
 #brand_img_sec{
     width: auto;
     height: auto;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+#brand_focus_wrapper{
+    width: 26%;
+    display: flex;
+    padding-top: 5px;
+}
+
+#brand_txt_focus{
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    color: var(--dark-grey);
+    /* padding: 5px; */
+    line-height: 10px;
+    display: flex;
 }
 
 #brand_img{
-    background-image: url("images/style3.JPG");
+    background-image: url("images/content-img-tiedye.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     z-index: 100;
     border: 0.25px solid #07060415;
     box-shadow: 0.5px 0.75px 1.5px #0706042a;
-    width: 193px;
-    height: 90px;
-    margin-top: 5px;
-    margin-bottom: 1px;
+    width: 190px;
+    height: 150px;
 }
 
 @media only screen and (max-width: 280px) {
     main{
-        margin-top: 5px;
+        /* margin-top: 5px;
         margin-bottom: 20px;
-        width: 100%;
+        width: 100%; */
 
     }
 
     #about_txt_wrapper{
-    width: 60px;
+    /* width: 60px; */
     }
 
     .about_txt,
     #about_sec_link{
-        font-size: 4.5px;
+        /* font-size: 4.5px;
         font-weight: 400;
-        line-height: 5.75px;
+        line-height: 5.75px; */
     }
 
     #headshot_img{
-        width: 144px;
+        /* width: 144px;
         height: 75.45px;
         position: relative;
-        bottom: 90px;
+        bottom: 90px; */
     }
 
     #headshot_sec{
-        height: 30px;
-        margin-bottom: 0px;
+        /* height: 30px;
+        margin-bottom: 0px; */
     }
 
     #brand_txt_focus{
-        padding-right: 10px;
+        /* padding-right: 10px;
         padding-left: 15px;
-        width: 115px;
+        width: 115px; */
     }
 
     .brand_txt_note{
-        padding-left: 5px;
-        padding-right: 0px;
+        /* padding-left: 5px; */
+        /* padding-right: 0px; */
     }
 }
 
 @media only screen and (min-width: 360px) {
     main{
-        height: auto;
-        margin: 45px 10px 25px 10px;
-        width: auto;
+        /* height: auto; */
+        /* margin: 45px 10px 25px 10px; */
+        /* width: auto; */
     }
 
     #about_txt_wrapper{
-        display: flex;
-        flex-direction: column;
+        /* display: flex; */
+        /* flex-direction: column;
         width: 70px;
-        padding-right: 5px;
+        padding-right: 5px; */
     }
 
     #headshot_sec{
-        margin-bottom: 18px;
+        /* margin-bottom: 18px; */
     }
 
     #headshot_img{
-        width: 172.8px;
-        height: 90.54px;
+        /* width: 172.8px;
+        height: 90.54px; */
     }
 
-    #brand_sec{
+    /* #brand_sec{
         padding-left: 100px;
         padding-right: 10px;
     }
@@ -551,11 +501,11 @@ nav{
 
 @media only screen and (min-width: 540px) {
     body{
-        display: flex;
-        justify-content: space-between;
+        /* display: flex;
+        justify-content: space-between; */
     }
 
-    main{
+    /*main{
         height: auto;
         padding: 20px 27px 0 27px;
         margin-top: 85px;
@@ -596,11 +546,11 @@ nav{
 
 @media only screen and (min-width: 768px) {
     body{
-        display: flex;
+        /* display: flex; */
 
     }
 
-    main{
+    /*main{
         width: auto;
         height: auto;
         padding: 20px 27px 0 27px;
@@ -692,7 +642,7 @@ nav{
         /* padding-right: 30px; */
     }
 
-    #brand_intro_wrapper{
+    /*#brand_intro_wrapper{
         padding-left: 75px;
         padding-bottom: 25px;
     }
@@ -734,11 +684,11 @@ nav{
 
 @media only screen and (min-width: 1024px) {
     body{
-        display: flex;
-        justify-content: space-evenly;
+        /* display: flex;
+        justify-content: space-evenly; */
     }
 
-    main{
+    /*main{
 
 
     }
@@ -973,4 +923,4 @@ nav{
 
 @media only screen and (min-width: 2560px) {
 
-}
+} */
