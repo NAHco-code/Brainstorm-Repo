@@ -1,6 +1,6 @@
 # Portfolio 02
 
-Second developer portfolio. Was experimenting with layout and responsive design.
+Second developer portfolio. More of a brainstorm. Was experimenting with layout and responsive design.
 
 ## Visuals
 
