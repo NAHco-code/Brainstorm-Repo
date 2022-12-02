@@ -1,18 +1,24 @@
-# Case Study 02
+# Portfolio 02
 
-<!-- 
-## Roadmap
+Second developer portfolio. Was experimenting with layout and responsive design.
 
-Incomplete styling due to concept change. JavaScript will be applied to implememnt a carosel or slideshow feature for the cards, as well as corresponding navigation links. -->
-
-### Visuals
+## Visuals
 
 ![screenshot main](./assets/images/screenshot-concept1-desktop.PNG)
 ![screenshot revised-main](./assets/images/screenshot-revised-concept-home.PNG)
 ![screenshot revised-sections](./assets/images/screenshot-revised-concept-cards.PNG)
 
-<!-- ### Links
+## Questions?
 
-[DeployedApp(GitHubPages)](https://nahco-code.github.io/Portfolio-branded/)
-[GitHubRepo](https://github.com/NAHco-code/Portfolio-branded.git)
-[GitHubBranch-revised-concept](https://github.com/NAHco-code/Portfolio-branded.git) -->
+Please feel free to contact me with any questions via email or LinkedIn.
+
+- Github: [kathrynwilkinson](https://github.com/kathrynwilkinson)
+- LinkedIn: [Kathryn Wilkinson](https://www.linkedin.com/in/kwilkinsonxx/)
+- Email: [kathrynxwilk@gmail.com](mailto:kathrynxwilk@gmail.com)
+
+## License
+
+This project is licensed under the MIT License.
+  For more information, please visit: [MIT](https://choosealicense.com/licenses/mit/)
+
+&copy; 2021 Kathryn Wilkinson
